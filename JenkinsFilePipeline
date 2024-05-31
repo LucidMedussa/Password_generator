@@ -24,7 +24,7 @@ pipeline{
 
         stage('Staging'){
             steps{
-            sh 'firebase deploy -P staging-replica-cfe2d--token "$FIREBASE_DEPLOY_TOKEN"'
+            sh 'firebase deploy -P staging-replica-cfe2d --token "$FIREBASE_DEPLOY_TOKEN"'
             }
         }
 
